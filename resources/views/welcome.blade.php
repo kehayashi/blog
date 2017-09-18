@@ -1,95 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
 
-        <title>Laravel</title>
+      gtag('config', 'UA-106745347-1');
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+      ga('create', 'UA-106745347-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Inova Direito | Sua fonte online de conteúdo grátis</title>
+    <link href="{{ asset("/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet">
+    <link href="{{ asset("/vendor/font-awesome/css/font-awesome.min.css") }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="{{ asset("css/clean-blog.min.css") }}" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="{!! asset('img/ICONE-PEQUENO.png') !!}"/>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x" style="color: #001441;"></i>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x" style="color: #001441;"></i>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x" style="color: #001441;"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+
+    <header class="masthead" style="background-image: url('/img/cover_site-01.png'); height: 10%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+                <img src="{!! asset('/img/MARCA-SITE.png') !!}">
+              <span class="subheading">Sua fonte online de conteúdo grátis</span>
+
+              <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                  <br>
+                  @if (count($errors) > 0)
+                       <div class="alert alert-danger">
+                            <ul style="font-size:13px">
+                            @foreach($errors->all() as $error)
+                                <li><font style="font-size: 15px;">{{$error}}</font></li>
+                            @endforeach
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            </ul>
+                        </div>
+                  @endif
+                  @if((old('nome')) && (count($errors) <= 0))
+                     <div class="alert alert-success">
+                         <b style="font-size: 15px;">Você foi cadastrado com sucesso!
+                         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                     </div>
+                 @endif
+                </div>
+                <div class="col-md-2">
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+
+        @yield('conteudo')
+
+      </div>
+    </div>
+
+    <br>
+    <div class="footer-bottom">
+	     <div class="container-fluid">
+         <div class="row text-center" style="background-color: #001441;">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+             <div class="copyright">
+               <font class="text-center subheading" style="color: white; font-size: 14px;">© 2017, #Modo_beta, All rights reserved</font>
+             </div>
+			     </div>
+		    </div>
+	    </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset("vendor/jquery/jquery.min.js") }}"></script>
+    <script src="{{ asset("vendor/popper/popper.min.js") }}"></script>
+    <script src="{{ asset("vendor/bootstrap/js/bootstrap.min.js") }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ asset("js/clean-blog.min.js") }}"></script>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106745347-1"></script>
+
+
+
+
+  </body>
+
 </html>
