@@ -22,17 +22,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Inova Direito | Sua fonte online de conteúdo grátis</title>
-    <link href="{{ asset("/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet">
-    <link href="{{ asset("/vendor/font-awesome/css/font-awesome.min.css") }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset("/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet">
+    <link href="{{ secure_asset("/vendor/font-awesome/css/font-awesome.min.css") }}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="{{ asset("css/clean-blog.min.css") }}" rel="stylesheet">
+    <link href="{{ secure_asset("css/clean-blog.min.css") }}" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="{!! asset('img/ICONE-PEQUENO.png') !!}"/>
+          <img src="{!! secure_asset('img/ICONE-PEQUENO.png') !!}"/>
         </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -70,7 +70,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-                <img src="{!! asset('/img/MARCA-SITE.png') !!}">
+                <img src="{!! secure_asset('/img/MARCA-SITE.png') !!}">
               <span class="subheading">Sua fonte online de conteúdo grátis</span>
 
               <div class="row">
@@ -129,12 +129,12 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset("vendor/jquery/jquery.min.js") }}"></script>
-    <script src="{{ asset("vendor/popper/popper.min.js") }}"></script>
-    <script src="{{ asset("vendor/bootstrap/js/bootstrap.min.js") }}"></script>
+    <script src="{{ secure_asset("vendor/jquery/jquery.min.js") }}"></script>
+    <script src="{{ secure_asset("vendor/popper/popper.min.js") }}"></script>
+    <script src="{{ secure_asset("vendor/bootstrap/js/bootstrap.min.js") }}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{ asset("js/clean-blog.min.js") }}"></script>
+    <script src="{{ secure_asset("js/clean-blog.min.js") }}"></script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106745347-1"></script>
