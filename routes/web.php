@@ -4,7 +4,7 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'PostController@getPosts');
+Route::get('/posts', 'PostController@getPosts');
 
 Route::post('/StoreLead', 'LeadController@storeLead');
 
