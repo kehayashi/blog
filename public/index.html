@@ -22,17 +22,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Inova Direito | Sua fonte online de conteúdo grátis</title>
-    <link href="{{ asset("/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet">
-    <link href="{{ asset("/vendor/font-awesome/css/font-awesome.min.css") }}" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href="{{ asset("/css/clean-blog.min.css") }}" rel="stylesheet">
+    <link href="css/clean-blog.min.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="{!! asset('img/ICONE-PEQUENO.png') !!}"/>
+          <img src="img/ICONE-PEQUENO.png">
         </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -53,7 +53,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">
+              <a class="nav-link" href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-instagram fa-stack-1x" style="color: #001441;"></i>
@@ -70,8 +70,21 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-                <img src="{!! asset('/img/MARCA-SITE.png') !!}">
+                <img src="img/MARCA-SITE.png">
               <span class="subheading">Sua fonte online de conteúdo grátis</span>
+              <br>
+              <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                  <a href="/" class="btn btn-success form-control">Entrar</a>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+              </div>
+
 
               <div class="row">
                 <div class="col-md-2">
@@ -79,22 +92,6 @@
                 </div>
                 <div class="col-md-8">
                   <br>
-                  @if (count($errors) > 0)
-                       <div class="alert alert-danger">
-                            <ul style="font-size:13px">
-                            @foreach($errors->all() as $error)
-                                <li><font style="font-size: 15px;">{{$error}}</font></li>
-                            @endforeach
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                            </ul>
-                        </div>
-                  @endif
-                  @if((old('nome')) && (count($errors) <= 0))
-                     <div class="alert alert-success">
-                         <b style="font-size: 15px;">Você foi cadastrado com sucesso!
-                         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                     </div>
-                 @endif
                 </div>
                 <div class="col-md-2">
 
@@ -110,31 +107,17 @@
     <div class="container">
       <div class="row">
 
-        @yield('conteudo')
-
       </div>
     </div>
 
-    <br>
-    <div class="footer-bottom">
-	     <div class="container-fluid">
-         <div class="row text-center" style="background-color: #001441;">
-           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-             <div class="copyright">
-               <font class="text-center subheading" style="color: white; font-size: 14px;">© 2017, #Modo_beta, All rights reserved</font>
-             </div>
-			     </div>
-		    </div>
-	    </div>
-    </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset("/vendor/jquery/jquery.min.js") }}"></script>
-    <script src="{{ asset("/vendor/popper/popper.min.js") }}"></script>
-    <script src="{{ asset("/vendor/bootstrap/js/bootstrap.min.js") }}"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="{{ asset("/js/clean-blog.min.js") }}"></script>
+    <script src="js/clean-blog.min.js"></script>
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106745347-1"></script>
