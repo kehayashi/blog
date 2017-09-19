@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img class="img-responsive" src="{!! asset('/img/ICONE-PEQUENO.png') !!}"/>
+          <img class="img-fluid" src="{!! asset('/img/ICONE-PEQUENO.png') !!}"/>
         </a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -65,13 +65,13 @@
       </div>
     </nav>
 
-    <header class="masthead responsive" style="background-image: url('/img/cover_site-01.png'); height: 10%;">
+    <header class="masthead masthead-responsive" style="background-image: url('/img/cover_site-01.png'); height: 10%;">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
                 <a href="/">
-                  <img class="img-responsive" src="{!! asset('/img/MARCA-SITE.png') !!}">
+                  <img class="img-fluid" src="{!! asset('/img/MARCA-SITE.png') !!}">
                 </a>
               <span class="subheading">Sua fonte online de conteúdo grátis</span>
 
