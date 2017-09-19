@@ -34,7 +34,7 @@
         <a class="navbar-brand" href="/">
           <img class="img-fluid" src="{!! asset('/img/ICONE-PEQUENO.png') !!}"/>
         </a>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="https://www.facebook.com/inovadireito/" target="_blank">
