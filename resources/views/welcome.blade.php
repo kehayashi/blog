@@ -70,7 +70,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-                <a href="/" target="_blank">
+                <a href="/">
                   <img src="{!! asset('/img/MARCA-SITE.png') !!}">
                 </a>
               <span class="subheading">Sua fonte online de conteúdo grátis</span>
