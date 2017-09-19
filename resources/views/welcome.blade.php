@@ -70,7 +70,9 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-                <img src="{!! asset('/img/MARCA-SITE.png') !!}">
+                <a href="/" target="_blank">
+                  <img src="{!! asset('/img/MARCA-SITE.png') !!}">
+                </a>
               <span class="subheading">Sua fonte online de conteúdo grátis</span>
 
               <div class="row">
@@ -138,9 +140,6 @@
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106745347-1"></script>
-
-
-
 
   </body>
 

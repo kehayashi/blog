@@ -78,7 +78,7 @@
 
 <script>
   jQuery('.j').keyup(function () {
-    this.value = this.value.replace(/[^a-zA-Z]/g,'');
+    this.value = this.value.replace(/[^a-zA-Z ]/g,'');
   });
 </script>
 
