@@ -66,8 +66,8 @@
                   <option value="Diretor(a)">Diretor(a)</option>
                   <option value="Outro">Outro</option>
                 </select><br>
-                <button type="submit" class="btn btn-success form-control btn-responsive">
-                  <span>Quero receber mais informações!</span>
+                <button type="submit" class="btn btn-success form-control btn-block responsive-width">
+                  Quero receber mais informações!
                 </button>
               </form>
           </div>
