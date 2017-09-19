@@ -67,9 +67,7 @@
                   <option value="Outro">Outro</option>
                 </select><br>
                 <button type="submit" class="btn btn-success form-control btn-md-text">
-                  <p>
-                    Quero receber mais informações!
-                  </p>
+                    Quero receber + informações!
                 </button>
               </form>
           </div>
