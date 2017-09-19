@@ -25,10 +25,5 @@ Class LeadController extends Controller {
 
     return redirect('/')
 					->withInput();
-    //echo 'nome: '.$request->nome;
-    //echo 'sobrenome: '.$request->sobrenome;
-    //echo 'email: '.$request->email;
-    //echo 'cargo: '.$request->cargo;
-
   }
 }
