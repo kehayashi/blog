@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="https://www.facebook.com/inovadireito/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x" style="color: #001441;"></i>
@@ -53,10 +53,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">
+              <a class="nav-link" href="https://www.linkedin.com/company/18251735/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x" style="color: #001441;"></i>
+                  <i class="fa fa-linkedin fa-stack-1x" style="color: #001441;"></i>
                 </span>
               </a>
             </li>
