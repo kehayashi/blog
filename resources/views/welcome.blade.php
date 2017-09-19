@@ -45,7 +45,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" target="_blank">
+              <a class="nav-link" href="https://twitter.com/inova_direito" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x" style="color: #001441;"></i>
