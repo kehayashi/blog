@@ -10,7 +10,7 @@
           {{ $post->titulo }}
         </h3>
           <p>
-            {{ $post->descricao }}
+            {{ nl2br($post->descricao) }}
           </p>
       <p class="post-meta text-center">Posted by
         <a href="#">#modo_beta</a>
