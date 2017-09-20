@@ -67,7 +67,7 @@
                   <option value="Outro">Outro</option>
                 </select><br>
                 <button type="submit" class="btn btn-success form-control btn-md-text">
-                    Assinar! <i class="fa fa-thumbs-o-up">
+                    Assinar! <i class="fa fa-thumbs-o-up"></i>
                 </button>
               </form>
           </div>
