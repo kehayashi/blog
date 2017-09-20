@@ -9,9 +9,9 @@
           {{ $post[0] }}
           {{ $post->titulo }}
         </h3>
-        <span>
-            {{ $post->descricao }}
-        </span>
+          <span>
+            {{ nl2br($post->descricao) }}
+          </span>
       <p class="post-meta text-center">Posted by
         <a href="#">#modo_beta</a>
         {{ $post->data_hora }} </p> <a href="/">Voltar</a>
