@@ -39,7 +39,7 @@
       <div class="col-md-12">
         <div class="bd-example" data-example-id="">
           <div class="alert alert-default" role="alert" style="background-color: #DCDCDC;">
-            <h4 class="alert-heading text-center"><i class="fa fa-edit"></i> Cadastro<br><br>
+            <h4 class="alert-heading text-center"><i class="fa fa-edit"></i> Assine nosso newsletter <br><br>
             <form action="/StoreLead" method="post">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group has-feedback">
@@ -67,7 +67,7 @@
                   <option value="Outro">Outro</option>
                 </select><br>
                 <button type="submit" class="btn btn-success form-control btn-md-text">
-                    Quero receber + informações!
+                    Assinar! <i class="fa fa-thumbs-o-up">
                 </button>
               </form>
           </div>
