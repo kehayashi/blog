@@ -3,13 +3,13 @@
 @section('conteudo')
 
 <div class="row">
-  <div class="col-md-10 mx-auto">
+  <div class="col-md-12 mx-auto">
     <div class="post-preview">
         <h3 class="post-title text-center">
           {{ $post[0] }}
           {{ $post->titulo }}
         </h3>
-          <pre>
+          <pre style="font">
             {{ $post->descricao }}
           </pre>
       <p class="post-meta text-center">Posted by
@@ -17,8 +17,6 @@
         {{ $post->data_hora }} </p> <a href="/">Voltar</a>
     </div>
     <hr>
-  </div>
-  <div class="col-md-2 mx-auto">
   </div>
 
 </div>
