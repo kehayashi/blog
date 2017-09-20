@@ -10,7 +10,7 @@
           {{ $p->titulo }}
         </h5>
         <h5 class="post-subtitle">
-          <?php echo substr($p->descricao, 0, 200) }} ?><font>[...]</font>
+          <?php echo substr($p->descricao, 0, 200) ?><font>[...]</font>
         </h5>
       </a>
       <p class="post-meta">Posted by
