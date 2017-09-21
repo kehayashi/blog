@@ -3,22 +3,24 @@
 @section('conteudo')
 
   <div class="col-md-7 mx-auto">
-    @foreach ($posts as $p)
-    <div class="post-preview">
-      <a href="/getpostid/{{ $p->post_id }}">
-        <h5 class="post-title">
-          {{ $p->titulo }}
-        </h5>
-        <h5 class="post-subtitle">
-          <?php echo substr($p->descricao, 0, 200) ?><font>[...]</font>
-        </h5>
-      </a>
-      <p class="post-meta">Posted by
-        <a href="#">#modo_beta</a>
-        {{ $p->data_hora }} </p><a href="/getpostid/{{ $p->post_id }}">Ver mais</a>
+    <div class="row">
+      @foreach ($posts as $p)
+      <div class="post-preview">
+        <a href="/getpostid/{{ $p->post_id }}">
+          <h5 class="post-title">
+            {{ $p->titulo }}
+          </h5>
+          <h5 class="post-subtitle">
+            <?php echo substr($p->descricao, 0, 200) ?><font>[...]</font>
+          </h5>
+        </a>
+        <p class="post-meta">Posted by
+          <a href="#">#modo_beta</a>
+          {{ $p->data_hora }} </p><a href="/getpostid/{{ $p->post_id }}">Ver mais</a>
+      </div>
+      <hr>
+      @endforeach
     </div>
-    <hr>
-    @endforeach
   </div>
   <div class="col-md-5 mx-auto">
     <div class="row">
