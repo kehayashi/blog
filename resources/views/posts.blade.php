@@ -3,9 +3,8 @@
 @section('conteudo')
 
   <div class="col-md-7 mx-auto">
-    @foreach ($posts as $p)
     <div class="row">
-
+      @foreach ($posts as $p)
       <div class="post-preview">
         <a href="/getpostid/{{ $p->post_id }}">
           <h5 class="post-title">
@@ -20,9 +19,8 @@
           {{ $p->data_hora }} </p><a href="/getpostid/{{ $p->post_id }}">Ver mais</a>
       </div>
       <hr>
-
+      @endforeach
     </div>
-    @endforeach
   </div>
   <div class="col-md-5 mx-auto">
     <div class="row">
