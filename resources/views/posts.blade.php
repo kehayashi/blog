@@ -3,7 +3,6 @@
 @section('conteudo')
 
   <div class="col-md-7 mx-auto">
-    <div class="row">
       @foreach ($posts as $p)
       <div class="post-preview">
         <a href="/getpostid/{{ $p->post_id }}">
@@ -11,7 +10,6 @@
             {{ $p->titulo }}
           </h5>
           <h5 class="post-subtitle">
-            <?php echo substr($p->descricao, 0, 200) ?><font>[...]</font>
           </h5>
         </a>
         <p class="post-meta">Posted by
@@ -20,7 +18,6 @@
       </div>
       <hr>
       @endforeach
-    </div>
   </div>
   <div class="col-md-5 mx-auto">
     <div class="row">
