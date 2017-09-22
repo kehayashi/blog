@@ -24,20 +24,6 @@
       <div class="col-md-12">
         <div class="bd-example" data-example-id="">
           <div class="alert alert-default" role="alert" style="background-color: #DCDCDC;">
-            <h4 class="alert-heading text-center"><i class="fa fa-info-circle"></i> Sobre</h4>
-            <p style="font-size: 18px;">Tecnologia, empreendedorismo e gestão para advogados. Os escritórios de advocacia e os
-              departamentos jurídicos mais avançados estão buscando tecnologia baseada na nuvem para obter
-              vantagens competitivas, aumentando rapidamente a sua capacidade de inovação e melhorando a sua
-              eficiência e produtividade. Quer saber como? A Inova Direito reúne para você os melhores conteúdos
-              em tecnologia, empreendedorismo e gestão para advogados.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="bd-example" data-example-id="">
-          <div class="alert alert-default" role="alert" style="background-color: #DCDCDC;">
             <h4 class="alert-heading text-center"><i class="fa fa-edit"></i> Assine nosso newsletter <br><br>
             <form action="/StoreLead" method="post">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -69,6 +55,20 @@
                     Assinar! <i class="fa fa-thumbs-o-up"></i>
                 </button>
               </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="bd-example" data-example-id="">
+          <div class="alert alert-default" role="alert" style="background-color: #DCDCDC;">
+            <h4 class="alert-heading text-center"><i class="fa fa-info-circle"></i> Sobre</h4>
+            <p style="font-size: 18px;">Tecnologia, empreendedorismo e gestão para advogados. Os escritórios de advocacia e os
+              departamentos jurídicos mais avançados estão buscando tecnologia baseada na nuvem para obter
+              vantagens competitivas, aumentando rapidamente a sua capacidade de inovação e melhorando a sua
+              eficiência e produtividade. Quer saber como? A Inova Direito reúne para você os melhores conteúdos
+              em tecnologia, empreendedorismo e gestão para advogados.</p>
           </div>
         </div>
       </div>
