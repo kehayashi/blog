@@ -97,6 +97,13 @@
                          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                      </div>
                  @endif
+
+                 @if(isset($cadastrado))
+                    <div class="alert alert-success">
+                        <i class="fa fa-check"></i> <a href="https://drive.google.com/file/d/0BzUo8hBw7_55dldBcmctblZRUXM/view" target="_blank">Clique aqui para abrir e-book</a>
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    </div>
+                   @endif
                 </div>
                 <div class="col-md-2">
 

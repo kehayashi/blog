@@ -9,3 +9,7 @@ Route::get('/', 'PostController@getPosts');
 Route::post('/StoreLead', 'LeadController@storeLead');
 
 Route::get('/getpostid/{id}', 'PostController@getPostId');
+
+Route::post('/StoreLeadEbook', 'LeadController@storeLeadEbook');
+
+Route::get('/cadastroEbook', 'LeadController@storeFormEbook');

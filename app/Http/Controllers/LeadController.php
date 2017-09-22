@@ -26,4 +26,31 @@ Class LeadController extends Controller {
     return redirect('/')
 					->withInput();
   }
+
+  public function storeFormEbook(){
+
+    return view('form_ebook');
+
+  }
+
+  public function storeLeadEbook(LeadRequest $request){
+
+    date_default_timezone_set('America/Sao_Paulo');
+		$data = date('Y-m-d H:i:s');
+
+    $lead = new Lead();
+    $lead->nome = $request->nome;
+    $lead->sobrenome = $request->sobrenome;
+    $lead->email = $request->email;
+    $lead->empresa = $request->empresa;
+    $lead->cargo = $request->cargo;
+    $lead->data_hora = $data;
+    $lead->save();
+
+    $cadastrado = 'ok';
+
+    return view('/welcome')
+					->with('cadastrado', $cadastrado);
+  }
+  
 }
